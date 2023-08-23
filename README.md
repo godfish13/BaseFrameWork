@@ -25,10 +25,15 @@ Contents
    - Controls Player Character by MousePointer LayCasting   
 #### 2) Data   
    (1) DataContents   
-   - Call JSON File and save it as Dictionary   
+   - inherit ILoader in DataMgr and implement individual Data classes   
 #### 3) Managers   
    (1) Managers   
-   (2) DataMgr   
+   - Main Manager of project whitch init and clear other managers   
+   - Written as SingleTon pattern    
+   (2) DataMgr
+   - ILoader interface is included
+   - Load JSON file as TestAsset
+   - when initted, Saves loaded JSON files as Dictionary
    (3) InputMgr   
    (4) PoolMgr   
    (5) ResourceMgr   
