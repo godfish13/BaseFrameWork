@@ -32,9 +32,10 @@ Contents
    - Written as SingleTon pattern   
 ##### (2) DataMgr
    - ILoader interface is included
-   - Load JSON file as TestAsset
+   - Load JSON file in path as TestAsset
    - when initted, Saves loaded JSON files as Dictionary
 ##### (3) InputMgr   
+   - Invoke Actions when inputs are entered   
 ##### (4) PoolMgr   
 ##### (5) ResourceMgr   
 ##### (6) SceneMgrEx   
