@@ -38,13 +38,14 @@ Contents
    - Invoke Actions when inputs are entered   
 ##### (4) PoolMgr   
    - makes Object Pool Stack and use objects by Pop method
-   - default object pool size == 5
+   - default object pool size == 5 (if lack of object in pool erupted, class automatically create new object and push it in to pool so that no need to assign number of objects in pool)
 ###### (4-1) Poolable
    - has no functions but Use as component for judge is Object poolable
 ##### (5) ResourceMgr   
    - Load/Instantiate/Destroyu resources with path   
    - when Instantiate, if object is poolable, get object from objectPool which is made by PoolMgr   
 ##### (6) SceneMgrEx   
+   - includes extended LoadScene method which clear managers when loads other Scene
 ##### (7) SoundMgr   
 ##### (8) UIMgr   
 ### 4) Scenes   
@@ -52,6 +53,8 @@ Contents
 ##### (2) InGameScene      
 ##### (3) LogInScence      
 ### 5) UI   
+##### (1) UI_Base   
+##### (2) UI_EventHandler   
 * PopUp   
 ##### (1) UI_Btn   
 ##### (2) UI_PopUp   
@@ -62,5 +65,6 @@ Contents
 ##### (1) UI_Inven_Item    
 ### 6) Utility   
 ##### (1) Define   
+   - declare Enums for individual types (Scene, Sound, UIEvent, MouseEvent, CameraMode, ...)   
 ##### (2) ExtensionMethod   
 ##### (3) Utils   
