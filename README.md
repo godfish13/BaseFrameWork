@@ -15,7 +15,9 @@ Contents
    (1) Camera   
    (2) UI
    
-7) Sounds
+7) Sounds   
+   (1) Bgm
+   (2) UnityChan
 ### 3. Scenes
 
 ### 4. Scripts
