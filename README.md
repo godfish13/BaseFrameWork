@@ -5,12 +5,12 @@ Contents
 ### 1. Plugins
 1) UniRx
 ### 2. Resources
-1) Art
-   (1) Material
+1) Art   
+   (1) Material   
    (2) UnityChan
 3) Data
-4) Prefabs
-   (1) Camera
+4) Prefabs   
+   (1) Camera   
    (2) UI
 6) Sounds
 ### 3. Scenes
