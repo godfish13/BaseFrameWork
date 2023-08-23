@@ -38,13 +38,13 @@ Contents
    (2) InGameScene      
    (3) LogInScence      
 9) UI   
-   *PopUp   
+   * PopUp   
    (1) UI_Btn   
    (2) UI_PopUp   
-   *Scene   
+   * Scene   
    (1) UI_Inven   
    (2) UI_Scene   
-   *SubItem   
+   * SubItem   
    (1) UI_Inven_Item    
 11) Utility   
     (1) Define   
