@@ -37,8 +37,13 @@ Contents
 ##### (3) InputMgr   
    - Invoke Actions when inputs are entered   
 ##### (4) PoolMgr   
+   - makes Object Pool Stack and use objects by Pop method
+   - default object pool size == 5
 ###### (4-1) Poolable
+   - has no functions but Use as component for judge is Object poolable
 ##### (5) ResourceMgr   
+   - Load/Instantiate/Destroyu resources with path   
+   - when Instantiate, if object is poolable, get object from objectPool which is made by PoolMgr   
 ##### (6) SceneMgrEx   
 ##### (7) SoundMgr   
 ##### (8) UIMgr   
