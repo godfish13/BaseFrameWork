@@ -28,14 +28,14 @@ Contents
    (1) Managers   
    (2) DataMgr   
    (3) InputMgr   
-   (4) PoolMgr
-   (5) ResourceMgr
-   (6) SceneMgrEx
-   (7) SoundMgr
+   (4) PoolMgr   
+   (5) ResourceMgr   
+   (6) SceneMgrEx   
+   (7) SoundMgr   
    (8) UIMgr   
 7) Scenes   
-   (1) BaseScene
-   (2) InGameScene   
-   (3) LogInScence   
+   (1) BaseScene   
+   (2) InGameScene      
+   (3) LogInScence      
 9) UI
 10) Utility
