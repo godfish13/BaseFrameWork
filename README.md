@@ -29,7 +29,7 @@ Contents
 #### 3) Managers   
 (1) Managers   
    - Main Manager of project whitch init and clear other managers   
-   - Written as SingleTon pattern
+   - Written as SingleTon pattern   
 (2) DataMgr
    - ILoader interface is included
    - Load JSON file as TestAsset
