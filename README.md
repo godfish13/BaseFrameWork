@@ -39,13 +39,13 @@ Contents
    (3) LogInScence      
 9) UI   
    *PopUp   
-         i) UI_Btn   
-         ii) UI_PopUp   
+   (1) UI_Btn   
+   (2) UI_PopUp   
    *Scene   
-         i) UI_Inven   
-         ii) UI_Scene   
+   (1) UI_Inven   
+   (2) UI_Scene   
    *SubItem   
-         i) UI_Inven_Item    
+   (1) UI_Inven_Item    
 11) Utility   
     (1) Define   
     (2) ExtensionMethod   
