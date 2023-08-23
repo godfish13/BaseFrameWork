@@ -47,6 +47,6 @@ Contents
    * SubItem   
    (1) UI_Inven_Item    
 #### 6) Utility   
-    (1) Define   
-    (2) ExtensionMethod   
-    (3) Utils   
+   (1) Define   
+   (2) ExtensionMethod   
+   (3) Utils   
