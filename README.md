@@ -6,37 +6,35 @@ Contents
 #### 1) UniRx
 ## 2. Resources
 #### 1) Art   
-   (1) Material   
-   (2) UnityChan   
+(1) Material   
+(2) UnityChan   
 #### 2) Data   
 #### 3) Prefabs   
-   (1) Camera   
-   (2) UI   
+(1) Camera   
+(2) UI   
 #### 4) Sounds   
-   (1) Bgm   
-   (2) UnityChan   
+(1) Bgm   
+(2) UnityChan   
 ## 3. Scenes
 #### 1) InGame
 #### 2) LogIn
 ## 4. Scripts
 #### 1) Controllers   
-   (1) CameraCtrl   
-   (2) PlayerCtrl   
+(1) CameraCtrl   
+(2) PlayerCtrl   
    - Controls Player Character by MousePointer LayCasting   
 #### 2) Data   
-   (1) DataContents   
+(1) DataContents   
    - inherit ILoader in DataMgr and implement individual Data classes   
 #### 3) Managers   
-   (1) Managers   
+(1) Managers   
    - Main Manager of project whitch init and clear other managers   
    - Written as SingleTon pattern
-     
-   (2) DataMgr
+(2) DataMgr
    - ILoader interface is included
    - Load JSON file as TestAsset
    - when initted, Saves loaded JSON files as Dictionary
-     
-   (3) InputMgr   
+(3) InputMgr   
    (4) PoolMgr   
    (5) ResourceMgr   
    (6) SceneMgrEx   
