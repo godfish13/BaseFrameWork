@@ -22,8 +22,10 @@ Contents
 #### 1) Controllers   
    (1) CameraCtrl   
    (2) PlayerCtrl   
+   - Controls Player Character by MousePointer LayCasting   
 #### 2) Data   
    (1) DataContents   
+   - Call JSON File and save it as Dictionary   
 #### 3) Managers   
    (1) Managers   
    (2) DataMgr   
