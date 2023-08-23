@@ -37,6 +37,7 @@ Contents
 ##### (3) InputMgr   
    - Invoke Actions when inputs are entered   
 ##### (4) PoolMgr   
+####### (4-1) Poolable
 ##### (5) ResourceMgr   
 ##### (6) SceneMgrEx   
 ##### (7) SoundMgr   
