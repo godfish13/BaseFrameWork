@@ -21,7 +21,7 @@ public class ResourceMgr
         return Resources.Load<T>(path);
     }
 
-    public GameObject Instantiate(string path, Transform parent = null)
+    public GameObject Instantiate(string path, Transform parent = null) // 풀링 시, 기본 5개 생성하고 부족할 시 create를 통해 자동 추가되므로 따로 풀링갯수 지정 x
     {
         GameObject Original = Load<GameObject>($"Prefabs/{path}");
         if (Original == null)
@@ -31,11 +31,11 @@ public class ResourceMgr
 
         if (Original.GetComponent<Poolable>() != null)              // Poolable객체면 Pool에서 갖다 씀
         {
-            Debug.Log("Pooled");
+            Debug.Log($"Pooled {path}");
             return Managers.poolMgr.Pop(Original, parent).gameObject;
         }
 
-        GameObject go = Object.Instantiate(Original, parent);
+        GameObject go = Object.Instantiate(Original, parent);   // Poolable 아니면 그냥 불러다씀
         go.name = Original.name;
         return go;
     }

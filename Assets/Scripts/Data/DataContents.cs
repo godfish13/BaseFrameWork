@@ -5,7 +5,7 @@ using UnityEngine;
 
 #region Stat
 
-[Serializable]      // 메모리에 들고있는 정보를 파일로 변환시키기 위해 필요한 선언
+[Serializable]      // 메모리에 들고있는 정보를 파일로 변환시키기 위해 필요한 선언 // 그냥 써라...
 public class Stat
 {
     public int level;       // public or [SerializeField] 선언해야지 JSON에서 데이터 받아올 수 있음
@@ -16,7 +16,7 @@ public class Stat
 [Serializable]
 public class StatData : ILoader<int, Stat>
 {
-    public List<Stat> Stats = new List<Stat>();     //!!!!!!중요!!!!!! JSON파일에서 받아오려는 list와 이름이 꼭!!! 같아야함
+    public List<Stat> Stats = new List<Stat>();     // !!!!!!중요!!!!!! JSON파일에서 받아오려는 list와 이름이 꼭!!! 같아야함
 
     public Dictionary<int, Stat> MakeDict()
     {

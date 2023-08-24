@@ -19,7 +19,7 @@ public class PoolMgr
             Original = original;
             Root = new GameObject().transform;
             Root.name = $"{original.name}_Root";
-
+            
             for (int i = 0; i < PoolCount; i++)
             {
                 Push(Create());
@@ -50,7 +50,7 @@ public class PoolMgr
             if (poolStack.Count > 0)
                 poolable = poolStack.Pop();
             else
-                poolable = Create();
+                poolable = Create();      // Pool에 오브젝트 부족하면 더만들어줌
 
             poolable.gameObject.SetActive(true);
 
@@ -91,6 +91,7 @@ public class PoolMgr
         string name = poolable.gameObject.name;
         if (poolDictionary.ContainsKey(name) == false)   // 혹시 오브젝트 풀이 미생성된 상태에서 오브젝트를 풀에 넣으려하면 넣지말고 오브젝트 Destroy
         {
+            Debug.Log("no Key contains");
             GameObject.Destroy(poolable.gameObject);
             return;
         }

@@ -14,11 +14,20 @@ public class InGameScene : BaseScene
         //Managers.UIMgr.ShowSceneUI<UI_Inven>();
         //Managers.UIMgr.ShowPopUpUI<UI_Btn>();   
 
-        /*for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 5; i++)
         {
             Managers.resourceMgr.Instantiate("UnityChan");
-        }*/
+        }
 
+        for (int i = 0; i < 10; i++)
+        {
+            Managers.resourceMgr.Instantiate("UnityChan");
+        }
+
+        for (int i = 0; i < 10; i++)
+        {
+            Managers.resourceMgr.Destroy(GameObject.Find("UnityChan"));
+        }
         /*co = StartCoroutine("CoExplode", 4.0f);     // 이런모양으로도 사용가능
         StopCoroutine(CoStopExplode(2.0f));*/
 
