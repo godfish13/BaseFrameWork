@@ -55,9 +55,12 @@ Contents
 ### 5) UI   
 * UI   
 ##### (1) UI_Base   
+   - abstract class for other UI classes
+   - Bind method which bind UI object in Unity engine with UI enums in classes to use UI as code
 ##### (2) UI_EventHandler   
 * PopUp   
 ##### (1) UI_Btn   
+   - examples of bind UI and use it
 ##### (2) UI_PopUp   
 * Scene   
 ##### (1) UI_Inven   
@@ -69,3 +72,5 @@ Contents
    - declare Enums for individual types (Scene, Sound, UIEvent, MouseEvent, CameraMode, ...)   
 ##### (2) ExtensionMethod   
 ##### (3) Utils   
+   - GetOrAddComponent<T>(GameObject Target) : if Target contains T, call Target's T / if not, add T to Target and call T
+   - FindChild<T>(GameObject go, string name = null, bool recursive = false) : Find all T in go's children / if recursive, find all T in go's children and children's children
