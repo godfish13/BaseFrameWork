@@ -30,7 +30,8 @@ Base FrameWork for UnityEngine Game
    - inherit ILoader in DataMgr and implement individual Data classes   
 ### 3) Managers   
 ##### (1) Managers   
-   - Main Manager of project whitch init and clear other managers   
+   - Main Manager of project whitch init and clear other managers
+   - also has other Managers static instance
    - Written as SingleTon pattern   
 ##### (2) DataMgr
    - ILoader interface is included
