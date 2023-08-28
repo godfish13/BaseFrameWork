@@ -34,7 +34,7 @@ Base FrameWork for UnityEngine Game
    - Written as SingleTon pattern   
 ##### (2) DataMgr
    - ILoader interface is included
-   - Load JSON file in path as TestAsset
+   - Load JSON file in path as TextAsset
    - when initted, Saves loaded JSON files as Dictionary
 ##### (3) InputMgr   
    - Invoke Actions when inputs are entered   
