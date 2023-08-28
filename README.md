@@ -40,7 +40,7 @@ Base FrameWork for UnityEngine Game
    - Invoke Actions when inputs are entered   
 ##### (4) PoolMgr   
    - makes Object Pool Stack and use objects by Pop method
-   - default object pool size == 5 (if lack of object in pool erupted, class automatically create new object and push it in to pool so that no need to assign number of objects in pool)
+   - default object pool size == 5 (if lack of size in pool erupted, class automatically create new object and push it in to pool so that no need to assign number of objects in pool)
 ###### (4-1) Poolable
    - has no functions but Use as component for judge is Object poolable
 ##### (5) ResourceMgr   
