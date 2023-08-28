@@ -44,7 +44,7 @@ Base FrameWork for UnityEngine Game
 ###### (4-1) Poolable
    - has no functions but Use as component for judge is Object poolable
 ##### (5) ResourceMgr   
-   - Load/Instantiate/Destroyu resources with path   
+   - Load/Instantiate/Destroy resources with path   
    - when Instantiate, if object is poolable, get object from objectPool which is made by PoolMgr   
 ##### (6) SceneMgrEx   
    - includes extended LoadScene method which clear managers when loads other Scene
