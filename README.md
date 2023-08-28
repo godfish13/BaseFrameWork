@@ -16,7 +16,7 @@ Base FrameWork for UnityEngine Game
 ##### (2) UI   
 ### 4) Sounds   
 ##### (1) Bgm   
-##### (2) UnityChan   
+##### (2) UnityChanVoice   
 # 3. Scenes
 ### 1) InGame
 ### 2) LogIn
