@@ -33,7 +33,7 @@ Base FrameWork for UnityEngine Game
    - Main Manager of project whitch init and clear other managers
    - also has other Managers static instance
    - Written as SingleTon pattern
-##### Core   
+##### -Core folder-   
 ##### (2) DataMgr
    - ILoader interface is included
    - Load JSON file in path as TextAsset
