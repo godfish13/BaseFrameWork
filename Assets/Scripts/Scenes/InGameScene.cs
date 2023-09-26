@@ -32,6 +32,8 @@ public class InGameScene : BaseScene
         StopCoroutine(CoStopExplode(2.0f));*/
 
         Dictionary<int, Stat> dict = Managers.dataMgr.StatDictionary;
+
+        //gameObject.GetOrAddComponent<CursorCtrl>();   //커서 이미지 추가해서 사용하기
     }
 
     IEnumerator CoStopExplode(float seconds)
