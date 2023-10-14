@@ -26,7 +26,7 @@ Base FrameWork for UnityEngine Game
 ##### (2) PlayerCtrl   
    - Controls Player Character by MousePointer LayCasting   
 ##### (3) CursorCtrl
-   - Show Cursor Icon and change in various conditions
+   - Show Cursor Icon and changes in various conditions
 ### 2) Data   
 ##### (1) DataContents   
    - inherit ILoader in DataMgr and implement individual Data classes   
